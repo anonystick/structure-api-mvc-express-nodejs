@@ -1,0 +1,25 @@
+{
+  "name": "structure-api-mvc-express-nodejs",
+  "version": "1.0.0",
+  "description": "structure api mvc express nodejs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "anonystick <anonystick@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0",
+    "redis": "^3.1.2",
+    "winston": "^3.7.2"
+  }
+}
