@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name: "WSV-PIEPMARK",
+        name: "wsv-anonystick",
         script: "./server.js",
         exec_mode: 'cluster',
         instances: 4,
