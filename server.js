@@ -8,5 +8,5 @@ const {PORT} = process.env;
 
 
 app.listen( PORT, () => {
-    console.log(`WSV PIEPMARK start with port ${PORT}`);
+    console.log(`WSV start with port ${PORT}`);
 })
