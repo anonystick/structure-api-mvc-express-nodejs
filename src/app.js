@@ -14,6 +14,12 @@ app.use(morgan('combined'))
 // compress responses
 app.use(compression())
 
+// add body-parser
+app.use(express.json())
+app.use(express.urlencoded({
+    extended: true
+}))
+
 //router
 app.use(require('./v1/routes/index.router'))
 
